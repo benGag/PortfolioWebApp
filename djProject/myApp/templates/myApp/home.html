@@ -1,0 +1,12 @@
+
+{% extends "MyApp/base.html" %}
+{% load static %}
+
+{% block head %}
+    <link rel="stylesheet" href="{% static 'myApp/style.css' %}"/> 
+{% endblock %}
+
+{% block content %}
+    <p>Provided context: {{ name }}</p>
+    <p>Random number: {{ random_number }}</p>
+{% endblock %}
