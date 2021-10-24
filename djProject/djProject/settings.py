@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myApp.apps.MyappConfig',
+    'myReservation.apps.MyreservationConfig',
+    'home.apps.HomeConfig'
 ]
 
 MIDDLEWARE = [
